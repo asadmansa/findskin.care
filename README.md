@@ -47,7 +47,7 @@ Lastly, I also enjoyed my code organization and best practices. Every component 
 
 I am using manual Postgres queries - I am positive these can be optimized in order to create better searches and reduce database query times. For now, the queries that I need serve my application's purpose, but will have to be improve over time, especially as more functionality is implemented.
 
-In addition, the tagging of 10k+ products is not perfect. I use contextual information from the product page to generate product tags, and for instance some details (e.g. "Fragrance Free") might tag a product as being a fragrance product. This is partly mediated by having a community (which I do not yet). At the moment, automating the tagging of this number of products has been ok so far.
+In addition, the tagging of 10k+ products is not perfect. I use contextual information from the product page to generate product tags, and for instance some details (e.g. "Fragrance Free") might tag a product as being a fragrance product. This is partly mitigated by having a community (which I do not yet) to help flag and correct inaccurate tags. At the moment, automating the tagging of this number of products has been ok so far, and I'm looking for better ways to tag and categorize these products.
 
 There is no testing, which I sacrificed for the sake of development time. This project took me around six weeks from start to end, from figuring out how to scrape data to implementing a full-stack application with authentication functionality.
 
