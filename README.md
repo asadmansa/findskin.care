@@ -19,6 +19,7 @@ This application is live and hosted on Amazon EC2. The critical features have be
 - User login/signup, profile pages, settings pages, and page for managing/viewing their custom routines
 - Product pages with detailed product info and comments sorted by "most helpful" 
 - Adding custom, shareable routines to allow one to share her/his routines and products used for that routine
+  - for an example of this, see (https://findskin.care/user/buckslick/lists/1/my-morning-skincare-routine)
 
 ## Next Steps
 The next steps in development are
