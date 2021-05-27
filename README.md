@@ -36,6 +36,8 @@ I leveraged React.js, Node.js and Express.js, and GraphQL with Apollo for client
 
 For scraping, I used Cheerio.js to scrape 10,000+ pages from Ulta.com.
 
+You can see my logic, and brand/product csvs, under the `_assets` directory.
+
 ## Points of Interest
 
 I really enjoyed figuring out a way to seed my database with products. I had to rate-limit my requests from Ulta.com in order to first get all the brands and their urls (over 600), all the product urls for each brand (over 12,000), and then all of the product data from each product url, all while automated. This proved to be much easier when I used Cheerio.js to automate scraping and populating of each product page into a CSV file, which I used to populate my database. There is a question of ethics as well as I have scraped products from Ulta.com directly, but I am not seeking to make any money off of this application and any extra traffic is directed right back to the original product url which may benefit them. 
